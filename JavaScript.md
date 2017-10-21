@@ -1,3 +1,4 @@
+### JavaScript Cheat Sheet
 In html, js code must be inside <script> tags
 	-can be placed in <body> or <head> section
 	-or linked to externally via <script src="path_to_script.js"></script>
@@ -14,14 +15,15 @@ browser console	console.log()
 Case-Sensitive!
 statements end with ;
 comments: single line //, multiple lines /* */
-if (condition) {
+```if (condition) {
  block of code to be executed if the condition is true
 } else if (condition2) {
  block of code to be executed if the condition1 is false and condition2 is true
 } else {
  block of code to be executed if the condition1 is false and condition2 is false
 }
-
+```
+```
 switch(expression) {
  case n:
 	 code block
@@ -32,20 +34,23 @@ switch(expression) {
  default:
 	 code block
 } 
-
+```
+```
 for (statement 1; statement 2; statement 3) {
  code block to be executed
 }
-
+```
+```
 while (condition) {
 	 code block to be executed
 }
+```
 
 ## Variables
 var x;	x = 6;	var x = 6;
 declared with var, not type specific
 
-Arrays
+# Arrays
 var array_name = [item1, item2, ...];
 array.toString()			returns array as list of comma separated values
 array.join(“delimiter”)		like toString but can specify delimiter
@@ -53,12 +58,13 @@ array.sort()
 many more
 pop() and push()
 
-Strings
+# Strings
 denoted by ' or ", concatenate with + or with string1.concat(“ “, string2, etc);
 \ - escape char
 can be a primitive:	var x = “string”;
 or an object:		var x = new String(“string);
-	Methods
+
+# Methods
 string.length				returns int of length
 string.indexOf(“string2”)		returns index of first occurrence of string2
 string.lastIndexOf(“string2”)		returns index of last occurrence of string2
@@ -70,16 +76,18 @@ string.replace
 string.toUpperCase or .toLowerCase
 string.charAt(
 string.split(“delimiter”)		returns string as array. Delimiter =”” for just single chars
-## Operators## 
+
+
+## Operators
 +, -, *, /, %, ++, --
 
 +=, -=, etc,
 
 
 ## Functions
-function functionName(params, etc) {
+```function functionName(params, etc) {
 	code;
-}
+}```
 -Functions are invoked when it is called from js code, an event occurs, or self-invoked
 -functions can be used as variables
 
@@ -98,8 +106,9 @@ object methods are invoked via
 
 
 ## Events
-ie <button onclick='displayDate()'>The time is ?</button>
-<some-HTML-element some-event='some JavaScript'>
+ie 
+```<button onclick='displayDate()'>The time is ?</button>
+<some-HTML-element some-event='some JavaScript'>```
 
 Event 		Description
 onchange 	An HTML element has been changed
@@ -113,7 +122,7 @@ onload 		The browser has finished loading the page
 ## Type Conversion
 typeof variable 	returns type of variable
 
-JS Datatypes:
+# JS Datatypes:
 string
 number 
 boolean 
