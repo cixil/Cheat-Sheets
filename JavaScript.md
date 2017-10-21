@@ -4,7 +4,7 @@ In html, js code must be inside <script> tags
 	-or linked to externally via <script src="path_to_script.js"></script>
 
 
-### Display				example:
+## Display				example:
 Window		window.alert()		window.alert("hello world!");
 HTML Output		document.write()
 HTML element	innerHTML		document.getElementByID("someID").innerHTML = 'something';
