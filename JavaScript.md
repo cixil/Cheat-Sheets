@@ -15,7 +15,8 @@ browser console	console.log()
 Case-Sensitive!
 statements end with ;
 comments: single line //, multiple lines /* */
-```if (condition) {
+```
+if (condition) {
  block of code to be executed if the condition is true
 } else if (condition2) {
  block of code to be executed if the condition1 is false and condition2 is true
@@ -85,9 +86,11 @@ string.split(“delimiter”)		returns string as array. Delimiter =”” for ju
 
 
 ## Functions
-```function functionName(params, etc) {
+```
+function functionName(params, etc) {
 	code;
-}```
+}
+```
 -Functions are invoked when it is called from js code, an event occurs, or self-invoked
 -functions can be used as variables
 
