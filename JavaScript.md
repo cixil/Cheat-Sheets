@@ -3,14 +3,14 @@ In html, js code must be inside <script> tags
 	-or linked to externally via <script src="path_to_script.js"></script>
 
 
-##Display				example:
+## Display				example:
 Window		window.alert()		window.alert("hello world!");
 HTML Output		document.write()
 HTML element	innerHTML		document.getElementByID("someID").innerHTML = 'something';
 browser console	console.log()
 
 
-##Syntax
+## Syntax
 Case-Sensitive!
 statements end with ;
 comments: single line //, multiple lines /* */
@@ -41,7 +41,7 @@ while (condition) {
 	 code block to be executed
 }
 
-##Variables
+## Variables
 var x;	x = 6;	var x = 6;
 declared with var, not type specific
 
@@ -70,13 +70,13 @@ string.replace
 string.toUpperCase or .toLowerCase
 string.charAt(
 string.split(“delimiter”)		returns string as array. Delimiter =”” for just single chars
-##Operators##
+## Operators## 
 +, -, *, /, %, ++, --
 
 +=, -=, etc,
 
 
-##Functions
+## Functions
 function functionName(params, etc) {
 	code;
 }
@@ -84,7 +84,7 @@ function functionName(params, etc) {
 -functions can be used as variables
 
 
-##Objects
+## Objects
 var pokemon = {name:"ditto", type:"normal", lv: 34}
 pokemon.lv = 35;
 
@@ -97,7 +97,7 @@ object methods are invoked via
 	objectName.methodName()
 
 
-##Events
+## Events
 ie <button onclick='displayDate()'>The time is ?</button>
 <some-HTML-element some-event='some JavaScript'>
 
@@ -110,7 +110,7 @@ onkeydown 	The user pushes a keyboard key
 onload 		The browser has finished loading the page
 
 
-##Type Conversion
+## Type Conversion
 typeof variable 	returns type of variable
 
 JS Datatypes:
