@@ -42,3 +42,36 @@ echo "<h1>" . $txt . "</h1>";
 echo "printing contents of some var: $txt";
 echo "This ", "string ", "was ", "made ", "with multiple parameters.";
 ```
+
+
+## PHP Cookies
+**Syntax**
+```
+ setcookie(name, value, expire, path, domain, secure, httponly);
+ ```
+ To modify a cookie, just use setcookie again
+ To delete a cookie, use setcookie with an expiration date in the past
+ 
+ ## PHP Sessions
+ This must be the first thing in the document, before any html:
+ ```
+ <?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+...
+```
+Session variables start with the php global variable $\_session
+```
+$_SESSION["variable_name"] = value;
+ ```
+
+To end a php session:
+```
+<?php
+session_unset();  // remove all session variables
+session_destroy();  // destroy the session
+?>
+```
